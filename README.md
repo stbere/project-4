@@ -7,7 +7,9 @@ Project 4 test bed
   </br>
  
  <p align="center">
-  ## In Partnership with:</br>
+In Partnership with:</br>
+ </p>
+ <p align="center">
 <img width="330" height="100" src="https://user-images.githubusercontent.com/97980927/230750904-d2094d9b-a0ab-437d-a33a-cf8229aa4868.png">
 </p>
 
