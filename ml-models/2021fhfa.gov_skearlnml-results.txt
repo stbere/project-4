@@ -1,0 +1,1 @@
+For sklearn.ml file: what does our model output 'Mean Absolute Error: 77265.48' actually explain? It means the predictions made by the Random Forest Regressor are off by about $77265.48 in terms of our csv column 'NoteAmount'. So if the actual value of a house in the test data is $200,000, the model might predict that the house is worth around $277265.48.
