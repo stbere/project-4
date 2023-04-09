@@ -1,5 +1,5 @@
-# project-4
-Project 4 test bed
+# US Housing Forecast & Prediction
+
 
 <p align="center">
   <img width="400" height="300" src="https://user-images.githubusercontent.com/97980927/230750898-3b8a0959-93d0-4fa9-a3a8-2226d9c2428e.png"></br>
