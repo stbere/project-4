@@ -14,15 +14,12 @@ In Partnership with:</br>
 </p>
 
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
+
+
+
+
+
 ***Strictly for fictional project-use only***</br>
 [Contribution guidelines for this project](https://www.fhfa.gov/DataTools/Downloads/Pages/Public-Use-Databases.aspx)
 
