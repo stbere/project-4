@@ -38,13 +38,19 @@
 </style>
 <iframe src="https://giphy.com/embed/WeuiU5wFZQuV7HA7om" align="center" width="480" height="434" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
 </br>
+<div class="text-container">
+    <p1>This was our first attempt at home value forecasting. It is a linear regression model</p1>
+	<p2>attempting to predict home values from a fhfa.gov public dataset. The model uses a target</p2>
+	<p3>variable of 'NoteAmount' (the amount the bank has loaned), and independent variables of</p3>
+	<p4>'TotalyMonthlyIncomeAmount' and 'LTVRatioPercentage' (loan-to-value ratio -- think equity)</p4>
+</div>
 <style>
     .button-container {
         text-align: center;
     }
 </style>
       <div class="button-container">
-        <button onclick="window.open('https://github.com/stbere/project-4/blob/main/fhfa-ml-loan-amount-predictions.ipynb')">Python Script to Linear Regression model</button>
+        <button onclick="window.open('https://github.com/stbere/project-4/blob/main/fhfa-ml-loan-amount-predictions.ipynb')">Python Script for Linear Regression model</button>
       </div>
 </br>
 <div class="text-container">
@@ -59,13 +65,19 @@
 </style>
 <iframe src="https://giphy.com/embed/XhcRBmGgsIpqoMvIF0" width="480" height="386" align="center" frameBorder="0" class="giphy-embed" allowFullScreen align="center"></iframe><p>
 </br>
+<div class="text-container">
+    <p1>This model had a low accuracy but taught us how to finetune our parameters.</p1>
+	<p2>The current model is only 10% accurate with an R-squared value of 0.10</p2>
+	<p3>This particular linear regression model is attempting to predict home values in</p3>
+	<p4>Tulsa, OK based on data from the years 2000 to 2023</p4>
+</div>
 <style>
     .button-container {
         text-align: center;
     }
 </style>
 	<div class="button-container">
-		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/zillowhomevalues-oklahoma.ipynb')">Python Script to 2nd Linear Regression model</button>
+		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/zillowhomevalues-oklahoma.ipynb')">Python Script for 2nd Linear Regression model</button>
 	</div>
 </br>
 <div class="text-container">
@@ -85,13 +97,20 @@
         text-align: center;
     }
 </style>
+</br>
+<div class="text-container">
+    <p1>For this model, we achieved a Mean Absolute Error (MAE) of 80015.92 which means, on average, the predictions made</p1>
+	<p2>by the Random Forest Regressor are off by about $80,016 in terms of the approved loan amount by a traditional bank.</p2>
+	<p3>So according to this model, if the actual value of a loan is $200K, then the prediction made by this model for that</p3>
+	<p4>amount might be around $280K</p4>
+</div>
 	<div class="button-container">
-		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/fhfagov-sklean_rfr.ipynb')">Python Script to 3rd ML Model</button>
+		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/fhfagov-sklean_rfr.ipynb')">Python Script for 3rd ML Model</button>
 	</div>
 </br>
 <div class="text-container">
     <p>Our third Machine Learning example, this time we used the Random Forest Regressor.</p>
-	<p>This model gives us 76% accuracy when predicting home values in Tulsa, OK based on:</p>
+	<p></p>
 	<p>1) Bedrooms, 2) Bathrooms, 3) Square Footage of house & 4) Year Built</p> 
 </div>
 <style>
@@ -103,13 +122,19 @@
 </style>
 <iframe src="https://giphy.com/embed/FVaBzBtU7dEoZYR4Ao" width="480" height="434" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
 </br>
+<div class="text-container">
+    <p1>Our final model uses a polynomial features for our linear regression model.</p1>
+	<p2>This model gives us 76% accuracy when predicting home values in Tulsa, OK based on:</p2>
+	<p3>1) Bedrooms, 2) Bathrooms, 3) Square Footage of house & 4) Year Built</p3>
+	<p4>It is using a RapidAPI function to acquire the dataset.</p4>
+</div>
 <style>
     .button-container {
         text-align: center;
     }
 </style>
 	<div class="button-container">
-		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/polynomial-model-ml.ipynb')">Python Script to 4th ML Model</button>
+		<button onclick="window.open('https://github.com/stbere/project-4/blob/main/polynomial-model-ml.ipynb')">Python Script for 4th ML Model</button>
 	</div>
 </br>
 </br>
