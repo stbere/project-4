@@ -1,6 +1,7 @@
 # US Housing Forecast & Prediction
 
-
+View in [Github Pages](https://stbere.github.io/project-4/) or directly on [Github](https://stbere.github.io/project-4/) 
+* [Your GitHub Pages URL and adding preview to your README.md](/project-4/index.html)
 
 
 
