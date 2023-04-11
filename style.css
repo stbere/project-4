@@ -194,6 +194,10 @@ body {
   height: 400px;
 }
 
+.parent-container {
+  text-align: center;
+}
+
 /** text container with specific format/styling used for various text on the webpage */
 .text-container {
   font-family: Arial, sans-serif;
