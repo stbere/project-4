@@ -202,9 +202,10 @@ body {
 .text-container {
   font-family: Arial, sans-serif;
   font-size: 14px;
-  text-align: center;
   color: white;
-  margin: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 600px; /* adjust as needed */
 }
 
 
