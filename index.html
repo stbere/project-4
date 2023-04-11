@@ -142,14 +142,50 @@
 </br>
 </br>
 </br>
+      <div class="rss-feed">
+        <h2>News Feed</h2>
+        <h3>What are people saying about the US Housing Market?</h3>
+
+        <!-- I used xml here bc it is easier to read in this case-->
+
+        <div id="rss-feed">
+          <ul id="feed-list">
+
+            <head>
+              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+              <script>
+                $(document).ready(function () {
+                  $.ajax({
+                    url: "https://rss.app/feeds/tK90yxtx7qZdZ9V5.xml",
+                    dataType: "xml",
+                    success: function (data) {
+                      var $xml = $(data);
+                      var items = [];
+                      $xml.find("item").each(function () {
+                        var $this = $(this);
+                        var title = $this.find("title").text();
+                        var link = $this.find("link").text();
+                        var imgSrc = $this.find("media\\:content, content").first().attr("url");
+                        var imgHtml = '';
+                        if (typeof imgSrc !== 'undefined') {
+                          imgHtml = '<img src="' + imgSrc + '" class="feed-item-image" width="500">';
+                        }
+                        items.push("<li class='feed-item'><a href='" + link + "' class='feed-item-content'>" + imgHtml + '<br>' + "<div class='feed-item-text'>" + title + "</div></a></li>");
+                      });
+                      $("#feed-list").html(items.join(""));
+                    }
+                  });
+                });
+              </script>
 </br>
 </br>
 </br>
       <div class="text-box">
         <p>Cited/Referenced Sources:</p>
-        RapidAPI-
-        fhfa.gov-
-        Zillow.com-
+        RapidAPI -
+        fhfa.gov -
+        Zillow.com 
         <p>Copyright &copy; 2023</p>
       </div>
 </body>
