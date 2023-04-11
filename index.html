@@ -144,12 +144,16 @@
 </br>
       <div class="rss-feed">
         <h2>News Feed</h2>
-        <h3>What are people saying about the US Housing Market?</h3>
+        <h3>What are people saying about the US Housing Market? How do we help determine our predictions *outside* of our data? The news, of course!</h3>
 
         <!-- I used xml here bc it is easier to read in this case-->
 
-        <div id="rss-feed">
-          <ul id="feed-list">
+  <!-- Add the scrollbox wrapper here -->
+  <div style="height: 200px; overflow: auto;">
+    <div id="rss-feed">
+      <ul id="feed-list"></ul>
+    </div>
+  </div>
 
             <head>
               <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
