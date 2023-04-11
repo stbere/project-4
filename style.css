@@ -251,3 +251,10 @@ select {
     margin: 10px 0;
   }
 }
+
+
+/* Center align the iframe element */
+#iframe {
+	display: block;
+	margin: 0 auto;
+}
