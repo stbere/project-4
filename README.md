@@ -4,7 +4,7 @@ View our final project for Group 3 in [Github Pages](https://stbere.github.io/pr
 
 
 
-[yes](https://github.com/stbere/project-4/blob/main/images/forecast-fortress.PNG?raw=true)
+<img src="https://github.com/stbere/project-4/blob/main/images/forecast-fortress.PNG">
 
 
 
